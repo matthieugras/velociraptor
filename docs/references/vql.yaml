@@ -9332,6 +9332,21 @@
     permissions: MACHINE_STATE
   platforms:
   - windows_amd64_cgo
+- name: carve_i30
+  description: |
+    Carve i30 entries
+  type: Plugin
+  args:
+    - name: filename
+      type: accessors.OSPath
+      description: A list of log files to parse.
+      repeated: true
+      required: true
+    - name: accessor
+      type: string
+      description: The accessor to use.
+  platforms:
+    - windows_amd64_cgo
 - name: wmi
   description: |
     Execute simple WMI queries synchronously.

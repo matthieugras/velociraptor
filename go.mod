@@ -248,7 +248,7 @@ require (
 // replace github.com/Velocidex/grok => ../grok
 // replace www.velocidex.com/golang/vfilter => ../vfilter
 // replace www.velocidex.com/golang/regparser => ../regparser
-// replace www.velocidex.com/golang/go-ntfs => ../go-ntfs
+replace www.velocidex.com/golang/go-ntfs => ../go-ntfs
 // replace github.com/Velocidex/go-fat => ../go-fat
 // replace www.velocidex.com/golang/go-pe => ../go-pe
 // replace www.velocidex.com/golang/evtx => ../evtx

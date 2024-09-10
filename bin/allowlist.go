@@ -64,6 +64,7 @@ var (
 		"unzip",
 		"uploads",
 		"yara",
+		"carve_i30",
 	}
 
 	allowed_functions = []string{

@@ -61,7 +61,6 @@ func (self *YaraTestSuite) TestCSVParser() {
 			Set("rules", test_case.rule).
 			Set("files", test_case.data).
 			Set("accessor", "data")
-
 		for row := range plugin.Call(ctx, scope, args) {
 			rows = append(rows, row)
 		}
